@@ -1,3 +1,8 @@
+
+document.addEventListener("contextmenu", (event) => {
+    event.preventDefault();
+}); //R-click
+
 const apikey="4621b5620394605e568d2a4a1a2e91ab";
 const apiurl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
